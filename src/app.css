@@ -1,0 +1,11 @@
+.general {
+  display: flex;
+}
+.drinkContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.drink {
+  display: flex;
+  flex-direction: column;
+}
