@@ -2,7 +2,8 @@ import { createSlice } from "@reduxjs/toolkit";
 
 const initialState = {
   id: 1,
-  string: "",
+  string: "margarita",
+  detailShown: false,
 };
 
 const cocktailSlice = createSlice({
@@ -15,8 +16,11 @@ const cocktailSlice = createSlice({
     setString(state, { payload: str }) {
         state.string = str;
       },
+    setDetailShown(state, {payload: bool}) {
+      state.detailShown = bool;
+    }
   },
 });
 
 export default cocktailSlice;
-export const { setID, setString } = cocktailSlice.actions;
+export const { setID, setString, setDetailShown } = cocktailSlice.actions;

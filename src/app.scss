@@ -1,0 +1,35 @@
+.general {
+  display:flex;
+}
+.drinkContainer {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.drink {
+  display: flex;
+  flex-direction: column;
+}
+.detail {
+  width: 30%;
+}
+.input {
+  display: block;
+  margin: 0 auto;
+  width: 300px;
+  text-align: center;
+}
+button {
+  width: 200px;
+}
+.imgholder {
+  width: 200px;
+  height: auto;
+  > * {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+}
