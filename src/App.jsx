@@ -9,9 +9,11 @@ const App = () => {
   const dispatch = useDispatch();
   return (
     <>
+      <h1>Cocktailzzz</h1>
       <input
         type="text"
         className="input"
+        placeholder="Zoek hier"
         onChange={(e) => {
           dispatch(setString(e.target.value));
         }}

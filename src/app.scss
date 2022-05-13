@@ -1,5 +1,7 @@
 .general {
+  margin: 30px;
   display:flex;
+  gap: 30px;
 }
 .drinkContainer {
   width: 70%;
@@ -9,8 +11,10 @@
   gap: 30px;
 }
 .drink {
+  width: 31%;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .detail {
   width: 30%;
@@ -32,4 +36,7 @@ button {
     width: 100%;
     height: auto;
   }
+}
+h1,h2 {
+  text-align: center;
 }
