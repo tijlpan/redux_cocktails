@@ -1,3 +1,3 @@
 surge link:
 
-www.redux_cocktails.surge.sh
+www.redux-cocktails.surge.sh
